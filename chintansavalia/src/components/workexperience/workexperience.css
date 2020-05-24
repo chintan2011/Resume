@@ -1,0 +1,20 @@
+.title{
+    text-align: left;
+    line-height: 1;
+}
+.companyName{
+    text-align: left;
+    line-height: 0.001;
+    padding-top: 10px;
+}
+
+.position{
+    text-align: left;
+    line-height: 1.0;
+    display: block;
+}
+
+.jobdetails{
+    margin-top: -10px;
+    text-align: left;
+}

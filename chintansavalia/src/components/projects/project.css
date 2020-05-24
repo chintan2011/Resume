@@ -1,0 +1,17 @@
+.title{
+    text-align: left;
+    line-height: 1;
+}
+
+a + li{
+    text-align: left;
+}
+
+.container{
+    margin-top: 10px;
+    text-align: left;
+ }
+
+ li{
+     margin-top: 5px;
+ }
