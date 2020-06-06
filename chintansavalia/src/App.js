@@ -4,6 +4,8 @@ import Contact from './components/contactus/contactus';
 import WorkExperience from './components/workexperience/workexperience';
 import Projects from './components/projects/projects'
 import Navigation from './components/navigationbar/navigationbar';
+import Education from './components/education/education';
+import Skills from './components/skills/skills';
 
 class App extends Component {
   render() {
@@ -14,7 +16,10 @@ class App extends Component {
 		<Navigation />
         <WorkExperience />
         <Projects />
+		<Skills />
+		<Education/>
 		<Contact />
+		
       </div>
     );
   }
