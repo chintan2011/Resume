@@ -4,7 +4,6 @@ import Contact from './components/contactus/contactus';
 import WorkExperience from './components/workexperience/workexperience';
 import Projects from './components/projects/projects'
 import Navigation from './components/navigationbar/navigationbar';
-//import 'bootstrap/dist/css/bootstrap.min.css';
 
 class App extends Component {
   render() {
