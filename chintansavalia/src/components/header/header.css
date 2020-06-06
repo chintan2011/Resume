@@ -4,8 +4,15 @@ body {
     text-align: center;
 }
 
-img{
+.contactInfo{
     text-align: center;
+}
+
+img {  
+    position: absolute;
+    margin:auto;
+    left:0;
+    right:0;
 }
 
 .myName{
@@ -14,30 +21,4 @@ img{
 
 html{
     scroll-behavior: smooth;
-}
-
-.btn-group{
-    text-align: center;
-    margin: auto;
-    background-color: #ffffff; /* Green background */
-    border: 1px solid #ffffff; /* Green border */
-    color: white; /* White text */
-    padding: 10px 24px; /* Some padding */
-    cursor: pointer; /* Pointer/hand icon */    
-}
-
-.btn-group button:not(:last-child) {
-    border-right: none; /* Prevent double borders */
-  }
-  
-  /* Clear floats (clearfix hack) */
-.btn-group:after {
-    content: "";
-    clear: both;
-    display: table;
-  }
-  
-  /* Add a background color on hover */
-.btn-group button:hover {
-    background-color:  #ffffff;
 }

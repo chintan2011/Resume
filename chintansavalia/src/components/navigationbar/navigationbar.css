@@ -1,37 +1,8 @@
-.btn-group{
-    background-color: #5d68cc; /* Green background */
-    border: 1px solid black; /* Green border */
-    color: white; /* White text */
-    padding: 10px 24px; /* Some padding */
-    cursor: pointer; /* Pointer/hand icon */
-     /* Float the buttons side by side */
-    text-decoration: none;
-    width: 33%;
-	/* padding-left: 32px; */
-	/* width:30%; */
-}
-
-.button-container{
-	width: 100%;
-	resize: both;
-}
-
-.btn-group button:not(:last-child) {
-    border-right: none; /* Prevent double borders */
-}
-  
-  /* Clear floats (clearfix hack) */
-.btn-group:after {
-    content: "";
-    clear: both;
-    display: table;
-  }
-  
-  /* Add a background color on hover */
-.btn-group button:hover {
-    background-color: #5d68cc;
-}
-
 html{
     scroll-behavior: smooth;
+}
+
+.container {
+margin: 0 auto;
+    display: block;
 }

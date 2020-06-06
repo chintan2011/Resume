@@ -18,3 +18,8 @@
     margin-top: -10px;
     text-align: left;
 }
+
+.list{
+    list-style:disc outside none;
+    display:list-item;
+}

@@ -1,7 +1,10 @@
 import React, { Component } from 'react';
-import './navigationbar.css';
+//import './navigationbar.css';
 import Button from 'react-bootstrap/Button';
-import {ButtonGroup} from 'react-bootstrap';
+import 'bootstrap/dist/css/bootstrap.min.css';
+import Container from 'react-bootstrap/Container';
+import Row from 'react-bootstrap/Row';
+import Col from 'react-bootstrap/Col';
 
 
 export default class Contact extends Component {
@@ -11,7 +14,7 @@ export default class Contact extends Component {
 			locator.scrollIntoView();
 		}
 		function scrollToProject(e){
-			let locator = document.getElementById("project")
+			let locator = document.getElementById("projects")
 			locator.scrollIntoView();
 		}
 		function scrollToContactInfo(e){
@@ -20,18 +23,17 @@ export default class Contact extends Component {
 		}
     return (
         <React.Fragment>
-        {/* <div class="button-container">
-        	<a href="#project" class="btn-group">ProjectLink</a>
-        	<a href="#workexperience" class="btn-group">Work Experience</a>
-        	<a href="#contactinfo" class="btn-group">Social</a>
-        	<br/><br/><br/>
-        </div> */}
-			<ButtonGroup className="mb-2" size="lg">
-  				<Button variant="secondary" onClick={scrollToProject}>Projects</Button>
-  				<Button variant="secondary" onClick={scrollToWorkExperience}>Work Experience</Button>
-  				<Button variant="secondary" onClick={scrollToContactInfo}>Social</Button>
-			</ButtonGroup>
-        </React.Fragment>
+			<Container fluid>
+  				<Row className="justify-content-md-center">
+				  	<Col md="auto">
+					  <Button onClick={scrollToProject} size="lg">Projects</Button> {' '}
+					  <Button onClick={scrollToWorkExperience} size="lg">Work Experience</Button> {' '}
+					  <Button onClick={scrollToContactInfo} size="lg">Social</Button> {' '}
+					</Col>  					
+  				</Row>
+			</Container>
+        
+		</React.Fragment>
     );
   }
 }
